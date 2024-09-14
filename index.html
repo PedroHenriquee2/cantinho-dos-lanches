@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Cantinho dos Lanches</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <nav class="navbar-collapse collapse justify-content-end" id="menu">
+                    <ul class="nav nav-pills d-block d-md-flex">
+                        <li class="nav-item fw-bold">
+                            <a href="#sobre-o-restaurante" class="nav-link">
+                                <i class="bi bi-house-door me-1"></i>
+                                Sobre o restaurante
+                            </a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a href="#eventos" class="nav-link">
+                                <i class="bi bi-calendar-check me-1"></i>
+                                Eventos
+                            </a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a href="#cardapio" class="nav-link">
+                                <i class="bi bi-card-text me-1"></i>
+                                Nosso Cardapio
+                            </a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a href="#fale-conosco" class="nav-link">
+                                <i class="bi bi-chat-left-text me-1"></i>
+                                Fale conosco
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+<div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+    <section id="sobre-o-restaurante">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="./slides/240_F_812727108_MjCNux6MZhV05OMzKa1AWfJo4VejKbjm.jpg" alt="" class="d-block w-100">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./slides/pizza-deliciosa-de-angulo-alto-na-mesa_23-2150280198.avif" alt=""  class="d-block w-100">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./slides/distribuicao-de-festas-tradicionais-da-europa-oriental_1293807-692.avif" alt="" class="d-block w-100">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="carousel" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="carousel" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 mt-3">
+                        <img src="./imagens/espaço-interno.jpg" class="d-block w-100 rounded" alt="Espaço interno do restaurante">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-mb-0">
+                        <h2 class="section-title">Sobre <span>o restaurante</span></h2>
+                        <p>
+                            Lanchonete e Pizzaria é o ponto de encontro perfeito para quem busca uma refeição deliciosa em um ambiente aconchegante e acolhedor. Com um cardápio variado, que vai desde lanches clássicos, como hambúrgueres artesanais e batatas fritas crocantes, até pizzas de massa fina e borda recheada, preparados com ingredientes frescos e de qualidade, este lugar é uma verdadeira referência.
+                        </p>
+                        <h3 class="section-title">Sobre <span>o espaço</span></h3>
+                        <p>
+                            possui um espaço que combina simplicidade e charme, criando um ambiente perfeito para momentos de descontração. Com mesas bem distribuídas, o local oferece um clima amigável, ideal para reunir amigos e familiares ou simplesmente desfrutar uma refeição
+                        </p>
+                        <ul>
+                            <li>Cardápio Variado</li>
+                            <li>Ótimas promoções</li>
+                            <li>qualidade dos Produtos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="eventos" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Promoções <span> da semana</span></h2>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img src="./imagens/Pizzasssss.jpg" alt="Pizzas" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title fs-4">
+                        <span>Pizza</span></h3>
+                    <p>
+                        Aproveite nossa super oferta e leve 3 pizzas grandes de qualquer sabor por apenas R$80! É a oportunidade perfeita para reunir a família e os amigos e saborear nossas deliciosas pizzas!!!
+                    </p>
+                </div>
+                <div class="col-md-4"> 
+                    <img src="./imagens/hamburguer.avif" alt="Hamburguer" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title fs-4"><span>Hamburguer</span></h3>
+                    <p>
+                        Venha aproveitar nossa oferta imperdível! Compre 5 hambúrgueres deliciosos por apenas R$55 e ganhe um refrigerante de 2 litros totalmente grátis. É uma oportunidade perfeita para compartilhar com a família!!!
+                    </p>
+                </div>
+                <div class="col-md-4 ">
+                    <img src="./imagens/batatinha.avif" alt="Batata frita" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title fs-4"><span>Batata frita</span></h3>
+                    <p>
+                        Delicie-se com nossa batata frita crocante, coberta com queijo cheddar derretido e bacon crocante, por apenas R$25. É o acompanhamento perfeito para sua refeição ou um petisco delicioso para compartilhar!!!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="cardapio" class="pt-3 pb-3">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Nosso <span>Cardápio</span>
+                </h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column nav-cardapio">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#pizza" class="section-title fw-bold text-start nav-link text-colored active">Pizza</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#lanche" class="section-title fw-bold text-start nav-link text-colored">Lanche</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#acompanhamento" class="section-title fw-bold text-start nav-link text-colored">acompanhamento</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#acai" class="section-title fw-bold text-start nav-link text-colored">Açaí</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas" class="section-title fw-bold text-start nav-link text-colored">Bebidas</button>
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="pizza">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 img-fluid" src="./imagens/pizza-calabresa.avif" alt="Pizza calabresa">
+                                    <h5 class="section-title text-colored fw-bold mt-2">Pizza de Calabresa</h5>
+                                    <p>
+                                        molho,requeijão,calabresa ,cebola,milho,orégano
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/pizza-bacon.jpg" alt="Pizza bacon">
+                                    <h5 class="section-title text-colored fw-bold mt-2">Pizza de Bacon</h5>
+                                    <p>
+                                        molho,requeijão,bacon, milho,cebola e orégano
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/pizza-frango.jpg" alt="Pizza frango">
+                                    <h5 class="section-title text-colored fw-bold mt-2">Pizza de Frango</h5>
+                                    <p>
+                                        molho,requeijão,frango, catupiry,milho,cebola, pimentão e orégano
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/pizza-3-queijos.jpg" alt="Pizza 3 queijos">
+                                    <h5 class="section-title text-colored fw-bold mt-2">Pizza de 3 queijos</h5>
+                                    <p>
+                                        molho,mussarela,cheddar, parmesão,milho,cebola, pimentão e orégano
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/pizza-ruim.jpg" alt="Pizza brócolis">
+                                    <h5 class="section-title text-colored fw-bold mt-2">Pizza de Brócolis</h5>
+                                    <p>
+                                        molho,brócolis,catupiry, alho torrado,milho e orégano
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/a-pior-pizza.jpg" alt="Pizza banana">
+                                    <h5 class="section-title text-colored fw-bold mt-2">Pizza de Banana com canela</h5>
+                                    <p>
+                                        mussarela,banana,leite condensado e canela
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/pizza-abacaxi.jpg" alt="Pizza abacaxi">
+                                    <h5 class="section-title text-colored fw-bold mt-2">Pizza de Abacaxi</h5>
+                                    <p>
+                                        mussarela,abacaxi,doce de leite
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/pizza-brigadeiro.avif" alt="Pizza brigadeiro">
+                                    <h5 class="section-title text-colored fw-bold mt-2">Pizza de Brigadeiro</h5>
+                                    <p>
+                                        chocolate e granulado
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="lanche">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 img-fluid" src="./imagens/hamburguer.avif" alt="Hamburguer">
+                                    <h5 class="section-title text-colored fw-bold mt-2">Hamburguer</h5>
+                                    <p>
+                                        Pão, 2 bifes e complemento (alface, batata, tomate e milho).
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/x-burguer.avif" alt="X-burguer">
+                                    <h5 class="section-title text-colored fw-bold mt-2">X-burguer</h5>
+                                    <p>
+                                        Pão, 2 bifes, mussarela e complemento
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/hamburgao.avif" alt="Hamburgao">
+                                    <h5 class="section-title text-colored fw-bold mt-2">Hamburgão</h5>
+                                    <p>
+                                        Pão, 2 bifes, mussarela, presunto, ovo e complemento
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/x-bacon.avif" alt="X-bacon">
+                                    <h5 class="section-title text-colored fw-bold mt-2">X-bacon</h5>
+                                    <p>
+                                        Pão, 2 bifes, bacon, mussarela e complemento
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/X-tudo.avif" alt="X-tudo">
+                                    <h5 class="section-title text-colored fw-bold mt-2">X-tudo</h5>
+                                    <p>
+                                        Pão, 2 bifes, mussarela, presunto, bacon, ovo e complemento 
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/X-turbo.avif" alt="X-turbo">
+                                    <h5 class="section-title text-colored fw-bold mt-2">X-turbo</h5>
+                                    <p>
+                                        Pão, 2 bifes, mussarela, presunto, bacon, ovo, calabresa e complemento
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/X-picanha.avif" alt="Picanha">
+                                    <h5 class="section-title text-colored fw-bold mt-2">Picanha Cheddar</h5>
+                                    <p>
+                                        Pão, 2 bifes de picanha, cheddar, alface, tomate e fritas 200g.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/x-file.avif" alt="Filé cheddar">
+                                    <h5 class="section-title text-colored fw-bold mt-2">Filé Cheddar</h5>
+                                    <p>
+                                        Pão de Hamburger, Frango Desfiado com Cheddar, Cebola e Salada de Alface e Tomate.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="acompanhamento">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img class="d-block w-100 img-fluid" src="./imagens/batatinha.avif" alt="batata frita">
+                                    <h5 class="section-title text-colored fw-bold mt-2">Batata Frita</h5>
+                                    <p>
+                                        Batata frita, cheddar e bacon
+                                    </p>
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="d-block w-100" src="./imagens/hot-dog.jpg" alt="hot dog">
+                                    <h5 class="section-title text-colored fw-bold mt-2">Hot dog</h5>
+                                    <p>
+                                        Pao,salsicha,catupiri,milho e batata
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="acai">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img class="d-block w-100 img-fluid" src="./imagens/Açaí.avif" alt="Açai">
+                                    <h5 class="section-title text-colored fw-bold mt-2">Açaí 500ml</h5>
+                                    <p>
+                                        Açaí 500ml,Açaí,granola,leite condensado,leite em pó,banana.
+                                    </p>
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="d-block w-100" src="./imagens/Açaí.avif" alt="Acai">
+                                    <h5 class="section-title text-colored fw-bold mt-2">Açaí 1L</h5>
+                                    <p>
+                                        Açaí 1L, Açaí,granola,leite condensado,leite em pó,banana.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="bebidas">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 img-fluid" src="./imagens/coca-cola.jpg" alt="coca-cola">
+                                    <h5 class="section-title text-colored fw-bold mt-2">Coca-cola 2L</h5>
+                                    <p>
+                                        Coca-cola 2L retornável
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/fanta-laranja.jpg" alt="fanta-laranja">
+                                    <h5 class="section-title text-colored fw-bold mt-2">fanta-laranja</h5>
+                                    <p>
+                                        Fanta laranja 2 litros
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/fanta-uva.jpg" alt="fanta-uva">
+                                    <h5 class="section-title text-colored fw-bold mt-2">fanta-uva</h5>
+                                    <p>
+                                        Fanta-uva 2 litros
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/guarana 2l.webp" alt="Guarana antartica">
+                                    <h5 class="section-title text-colored fw-bold mt-2">Guarana antartica</h5>
+                                    <p>
+                                        Guarana antartica 2L
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/refri-mini.jpg" alt="refri-mini">
+                                    <h5 class="section-title text-colored fw-bold mt-2">Refrigerante mini</h5>
+                                    <p>
+                                        Refrigerante mini
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/skinka-l.jpg" alt="Suco skinka laranja">
+                                    <h5 class="section-title text-colored fw-bold mt-2">Suco skinka laranja</h5>
+                                    <p>
+                                        Suco skinka laranja 450 ml
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/skinka-m.jpg" alt="Suco skinka morango">
+                                    <h5 class="section-title text-colored fw-bold mt-2">Suco skinka morango</h5>
+                                    <p>
+                                        Suco skinka morango 450 ml
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/iate.jpg" alt="refigerante iate">
+                                    <h5 class="section-title text-colored fw-bold mt-2">Iate</h5>
+                                    <p>
+                                        Cola, Limão, Guaraná, Laranja, Uva 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fale-conosco" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Fale <span class="text-colored">Conosco</span> </h2>
+            </div>
+            <div class="row">
+                <form>
+                    <div>
+                        <label for="nome" class="form-label"></label>
+                        <input type="text" id="nome" class="form-control" placeholder="Seu nome" required>
+                    </div>
+                    <div>
+                        <label for="email" class="form-label"></label>
+                        <input type="email" id="email" class="form-control" placeholder="e-mail" required>
+                    </div>
+                    <div>
+                        <label for="Telefone" class="form-label"></label>
+                        <input type="tel" id="telefone" class="form-control" placeholder="Telefone (opicional)">
+                    </div>
+                    <div>
+                        <label for="mensagem" class="form-label"></label>
+                        <textarea class="form-control" id="mensagem" placeholder="Mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn fw-bold mt-3 mb-3">Enviar</button>
+                </form>
+            </div>
+            <div class="col-md-5">
+                <div class="row">
+                    <h3 class="section-title fs-4 text-colored">
+                        <i class="bi bi-hand-thumbs-up-fill"></i>
+                        Redes sociais
+                    </h3>
+                    <ul class="social-links">
+                        <li class="fs-5">
+                            <a href="#">
+                                <i class="bi bi-facebook text-colored"></i>
+                            </a>
+                        </li>
+                        <li class="fs-5 ms-1 me-1">
+                            <a href="#">
+                                <i class="bi bi-instagram text-colored"></i>
+                            </a>
+                        </li>
+                        <li class="fs-5">
+                            <a href="#">
+                                <i class="bi bi-whatsapp text-colored"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row mt-4">
+                    <h3 class="section-title fs-4 text-colored">
+                        <i class="bi bi-cursor-fill"></i>
+                        Endereço
+                    </h3>
+                    <p>
+                        Rua Padre Paraíso n* 158, Bairro Turmalina - Governador Valadares - GV
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>
